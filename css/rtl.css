@@ -1,0 +1,40 @@
+body {
+	direction: rtl;
+}
+.owl-carousel,
+.bx-wrapper {
+	direction: ltr;
+}
+.socialnetwork,.right-section,.kd-search,.kd-readmore {
+	float: left;
+}
+.strip-info li,.logo,.navigation,.kdpost-option,.kdpost-option li,.kd-userinfo li i,footer .socialnetwork {
+	float: right;
+}
+
+.strip-info li i { margin: 0px 0px 0px 7px; }
+.strip-info li { margin: 0px 0px 0px 20px; }
+.searchform { left: 0px; right: auto; }
+.navigation ul ul ul { left: 100%; right: auto; }
+.kdpost-option li { margin: 0px 0px 14px 16px; }
+.kdpost-option li i,.twitter-widget i { margin: 0px 0px 0px 5px; }
+.newslatter-form input[type="submit"] { left: 2px; right: auto; }
+.kd-userinfo li i { margin: 5px 0px 0px 12px; }
+.widget-title h2:before { left: auto; right: 0px; }
+.topbaar .col-md-6,
+.mainheader .nav.navbar-nav > li,
+.mainheader .col-md-3,.kd-search, .kd-readmore{
+	float:right;
+}
+.bx-wrapper .bx-controls-direction a,
+.bx-wrapper .bx-pager.bx-default-pager a{
+	text-indent:99999px;
+}
+.blognetwork{
+	right:auto;
+	left:12px;
+}
+.widget-search label{
+	left:0px;
+	right:auto;
+}
